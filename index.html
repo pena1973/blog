@@ -5,46 +5,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" media="screen and (min-width:769px)" type="text/css" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px) " type="text/css" href="style768.css">
+  <!-- <link rel="stylesheet"  type="text/css" href="style768.css">  -->
   <title>Blog</title>
-  
-  <!-- font -->
 </head>
 
-<body>
-  <div class="container" >
+<body>  
+
     <header class="main-header">
-      <!-- <!— Шапка сайта —> -->
+      <!-- Шапка сайта -->
       <nav>
         <a href="#" class="font700 colorblack menu_text">
           <h3 class="fontSize20 anima">HotCoffee</h3>
         </a>
 
         <a href="#search" class="search font400 colorgray menu_text">
-          <img src="./icons/search.svg" alt="search" width="20" height="20" class="search_icon">
+          <img src="./icons/search.svg" alt="search" class="search_icon icon1">
           Search...
         </a>
 
         <div class="menu_icons">
           <a class="menu_icons_point font400 colorblack menu_text anima" href="#">Home</a>
           <a class="menu_icons_point font400 colorblack menu_text anima" href="./pages/page.html">Articles</a>
-          <a class="menu_icons_point" href="#instagram"><img src="./icons/instagram.svg" alt="instagram" width="20" height="20"></a>
-          <a class="menu_icons_point" href="#twiter">   <img src="./icons/twiter.svg"    alt="twiter"    width="20" height="16.57"></a>
-          <a class="menu_icons_point" href="#linkedIn"> <img src="./icons/linkedIn.svg"  alt="linkedIn"  width="18" height="18"></a>
+
+          <a class="menu_icons_point" href="https://www.instagram.com*/profile"><img src="./icons/instagram.svg" alt="instagram" class="icon1"></a>
+          <a class="menu_icons_point" href="https://www.twiter.com*/profile">   <img src="./icons/twiter.svg"    alt="twiter"    class="icon3"></a>
+          <a class="menu_icons_point" href="https://www.linkedIn.com*/profile"> <img src="./icons/linkedIn.svg"  alt="linkedIn"  class="icon2"></a>
         </div>
       </nav>
     </header>
-
+  <!-- </div> -->
+    <div class="container" >
     <main>
       <!-- page 1 -->
       <div class="page1">
         <div class="page1_1">
           <h1 class="font400 colorblack fontSize60"> <strong>Make better<br> coffee</strong>
-            <img src="./images/cofee.png" alt="cofee" width="100px" height="100px" style="margin: -15px;">
+            <img class="img_page1_1" src="./images/cofee.png" alt="cofee" >
           </h1>
           <h2 class="font400 colorgray fontSize30"> why learn how to blog? </h2>
         </div>
-        <img class="page1_2" src="./images/croods.png" alt="cofee" width="476px" height="323">
+        <img class="img_page1_2" src="./images/croods.png" alt="crouds" >
       </div>
 
       <!-- page 2 первая часть-->
@@ -62,7 +64,7 @@
             <a href="./pages/page.html" class=" font400 colorgray menu_text  fontSize12 anima"><p><strong>Read more</strong></p></a>
           </div>
         </div>
-        <img src="./images/man_and_PC_medium.png" alt="man" width="433.24px" height="243px">
+        <img src="./images/man_and_PC_medium.png" alt="man_and_PC_medium" class="img_page21_2">
       </div>
 
       <!-- page 2 вторая часть-->
@@ -70,7 +72,7 @@
         
         <!-- колонка1 -->
         <div class="page22_1">
-          <img src="./images/laptop_medium.png" alt="man" width="300" height="179px">
+          <img src="./images/laptop_medium.png" alt="laptop_medium" class="img_page22_1">
           <h3 class="font700 colorblue2 fontSize20 page22_1_2">long established</h3>
           
           <p class="font400 colorgray fontSize14 page22_1_2">
@@ -86,7 +88,7 @@
         
         <!-- колонка2 -->
         <div class="page22_1">
-          <img src="./images/women.png" alt="man" width="300" height="179px">
+          <img src="./images/women.png" alt="women" class="img_page22_1">
           <h3 class="font700 colorblue2 fontSize20 page22_1_2">long established</h3>
           
           <p class="font400 colorgray fontSize14 page22_1_2">
@@ -102,7 +104,7 @@
 
         <!-- колонка3 -->
         <div class="page22_1">
-          <img src="./images/table.png" alt="man" width="300" height="179px">
+          <img src="./images/table.png" alt="table" class="img_page22_1">
           <h3 class="font700 colorblue2 fontSize20 page22_1_2">long established</h3>
           
           <p class="font400 colorgray fontSize14 page22_1_2">
@@ -133,14 +135,12 @@
           </div>
 
         </div>
-        <img src="./images/laptop_big.png" alt="man" width="525px" height="500px">
+        <img class="img_page3_2" src="./images/laptop_big.png" alt="laptop_big" >
       </div>
       
       <!-- page 4-->
-      <div class="page4">
-        <a href="./pages/page.html" style="text-decoration: none;">
-        <button class="button font700 fontSize16">See more<img src="./icons/arrow.svg" alt="man" width="16.67px" height="16.67px" ></button>
-        </a>
+      <div class="page4">        
+        <button class="button font700 fontSize16">See more<img class="icon4" src="./icons/arrow.svg" alt="arrow" ></button>        
       </div>
     </main>
     <footer>
@@ -148,12 +148,10 @@
       <div class="futter">
         <p class="font400 colorblack fontSize16"><strong>hotcoffee </strong> 2020 copyright all rights reserved</p>
         <div class="menu_icons">
-          <a class="menu_icons_point" href="https://www.instagram.com*/profile"><img src="./icons/instagram.svg" alt="ru" width="20"
-              height="20"></a>
-          <a class="menu_icons_point" href="https://www.twiter.com*/profile"><img src="./icons/twiter.svg" alt="ru" width="20"
-              height="16.57"></a>
-          <a class="menu_icons_point" href="https://www.linkedIn.com*/profile"><img src="./icons/linkedIn.svg" alt="ru" width="18"
-              height="18"></a>
+          
+          <a class="menu_icons_point" href="https://www.instagram.com*/profile"><img src="./icons/instagram.svg" alt="instagram" class="icon1"></a>
+          <a class="menu_icons_point" href="https://www.twiter.com*/profile">   <img src="./icons/twiter.svg"    alt="twiter"    class="icon3"></a>
+          <a class="menu_icons_point" href="https://www.linkedIn.com*/profile"> <img src="./icons/linkedIn.svg"  alt="linkedIn"  class="icon2"></a>
         </div>
       </div>
 

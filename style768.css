@@ -63,6 +63,9 @@
     color: #4A5568;
 }
 
+/* .colorback {
+    background-color: #FBFBFB;
+} */
 .colorblue1 {
     color: #718096;
 }
@@ -115,10 +118,10 @@
 /* Тело */
 
 .container {
-    padding-top: 85px;
-    width: 1152px;
-    max-width: 1152px;
+    width: 768px;
+    max-width: 768px;
     background-color: #ffffff;
+    padding-top: 85px;
 }
 
 body {
@@ -144,7 +147,7 @@ nav {
     width: 100%;
     align-items: center;
     position: fixed;
-    max-width: 1152px;
+    max-width: 768px;
     top: 0;
 }
 
@@ -160,7 +163,6 @@ nav {
     text-decoration: none;
 }
 
-
 .search {
     display: flex;
     flex-direction: row;
@@ -173,20 +175,17 @@ nav {
     align-self: center;
 }
 
-
 .page1 {
     background-color: #FBFBFB;
     display: flex;
     width: 100%;
-    height: 467px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .page1_1 {
     width: 354px;
-    margin-left: 102px;
 }
 
 .img_page1_1 {
@@ -206,14 +205,15 @@ nav {
     display: flex;
     margin: 39px 93px 43px 93px;
     box-shadow: 0 4px 4px 0 #C0BDBD40;
-    border: 1px solid #E2E2E2
+    border: 1px solid #E2E2E2;
+    flex-direction: column;
+    align-content: center;
 }
 
 .page21_1 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 54.28px;
+    margin: 16px;
 }
 
 .page21_1_1 {
@@ -226,14 +226,14 @@ nav {
 }
 
 .img_page21_2 {
-    width: 433.24px;
-    height: 243px;
+    object-fit: cover
 }
 
 .page22 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
     margin: 39px 93px 43px 93px;
 }
 
@@ -241,10 +241,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 300px;
+    max-width: 100%;
     flex: 1;
     box-shadow: 0 4px 4px 0 #C0BDBD40;
-    border: 1px solid #E2E2E2
+    border: 1px solid #E2E2E2;
+    margin: 16px;
 }
 
 .page22_1_1 {
@@ -262,21 +263,20 @@ nav {
 }
 
 .img_page22_1 {
-    width: 300px;
-    height: 179px;
+    object-fit: cover;
 }
 
 .page3 {
     display: flex;
     margin: 39px 93px 43px 93px;
     background: #F7FAFC;
+    flex-direction: column;
 }
 
 .page3_1 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 41px 77.4px 43px 54.28px;
+    margin: 16px;
 }
 
 .page3_1_1_1 {
@@ -284,18 +284,17 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-end;
+
 }
 
 .img_page3_2 {
-    width: 525px;
-    height: 500px;
+    object-fit: cover;
 }
 
 .page4 {
     display: flex;
     margin: 39px 93px 43px 93px;
     justify-content: flex-end;
-
 }
 
 .button {
@@ -325,8 +324,8 @@ nav {
 }
 
 .img_article1 {
-    width: 973px;
-    height: 380px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .article2 {
